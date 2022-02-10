@@ -72,7 +72,7 @@ a:hover {
     background-size: auto!important;
 }
 
-.bg-repeat {
+/*.bg-repeat {
     background: repeat;
 }
 
@@ -88,12 +88,12 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}
+}*/
 
-.texture-paper::before {
+/*.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -360,6 +360,11 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+p#name {
+    font-size: 12px;
+    color: black;
 }
 
 @media (min-width: 768px) {
@@ -677,14 +682,18 @@ a {
 }
 
 p {
-    font-size: 11px;
+    /*font-size: 11px;*/
+    font-size: 20px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
-
+.tight-width-whitespace-2 {
+    /*max-width: 600px;*/
+    margin: auto auto auto auto;
+}
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -700,7 +709,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    /*max-width: 400px;*/
     margin: auto auto auto auto;
 }
 
@@ -717,7 +726,7 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
+    /*max-width: 800px;*/
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -746,6 +755,12 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    /*margin-left: 150px;*/
+}
+#row-2 {
+    border: red solid 1px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .avatar {
@@ -753,7 +768,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(51, 46, 31, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +790,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: rgb(255, 242, 235)!important;
 }
 
 .btn-atomic-tangerine {
@@ -809,13 +824,13 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+/*.bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
+}*/
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
