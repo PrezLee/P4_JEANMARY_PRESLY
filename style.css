@@ -406,6 +406,10 @@ p#name {
         float: none;
         margin: 10px auto 0;
     }
+    a h4 {
+        color: white;
+        font-size: 12px;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -713,6 +717,10 @@ p {
 .social {
     /*max-width: 400px;*/
     margin: auto auto auto auto;
+}
+.social a h4 {
+    color: white;
+    font-size: 12px;
 }
 
 h2 {
