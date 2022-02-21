@@ -227,7 +227,7 @@ a:hover {
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
+/*.l-bloc h4 a,*/
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
@@ -647,7 +647,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
@@ -658,7 +657,10 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
+a h4 {
+    color: white;
+    font-size: 12px;
+}
 .container {
     max-width: 1000px;
 }
@@ -732,10 +734,6 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
-}
-
-h4 {
     color: #333333!important;
 }
 
