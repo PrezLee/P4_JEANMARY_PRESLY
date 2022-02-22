@@ -79,17 +79,20 @@
 				<div class="col-sm-6">
 					<form id="form_1">
 						<div class="form-group">
-							<label id="nameLabel"  for="name"></label>
-							<input id="name" type="text" placeholder="Nom" aria-labelledby="nameLabel" required />
+							<label id="nameLabel"  for="name">Nom</label>
+							<input id="name" type="text" aria-labelledby="nameLabel" required />
 						</div>
 						<div class="form-group">
-							<input id="email" name="Email" type="email" placeholder="Email" required />
+							<label id="emailLabel"  for="Email">Email</label>
+							<input id="email" name="Email" type="email" aria-labelledby="emailLabel" required />
 						</div>
 						<div class="form-group">
-							<input id="how" type="text" placeholder="Comment nous avez-vous connu ?" required />
+							<label id="howLabel"  for="how">Comment nous avez-vous connu ?</label>
+							<input id="how" type="text" aria-labelledby="howLabel" required />
 						</div>
 						<div class="form-group">
-							<textarea id="message" rows="4" cols="50" type="text" placeholder="Brief de votre projet (Ajoutez autant de détails que nécessaire)" required></textarea>
+							<label id="messageLabel"  for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+							<textarea id="message" rows="4" cols="50" type="text" aria-labelledby="messageLabel" required></textarea>
 						</div> 
 						<button class="bloc-button btn btn-lg btn-block cta-hero bgc-dark-slate-blue" type="submit">
 							Envoyer
